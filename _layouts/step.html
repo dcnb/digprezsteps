@@ -58,7 +58,7 @@ layout: default
     <div id="tab1" class="tab-pane fade in active">
       <h3>Level 0 to Level 1</h3>
       <ul >
-{% for bullet in site.data.page.path.level-1 %}
+{% for bullet in site.data.[page.path].level-1 %}
   <li class="step-reminder">
     
       {{ bullet.text }}
