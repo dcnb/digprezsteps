@@ -14,8 +14,16 @@ step-2:
 step-3:
 step-4:
 resources:
-    - name:
-        url:
+    - name: Access Through Metadata 
+      url: http://www.digitalpreservation.gov/series/challenge/metadata_digital_content_challenge.html
     
-    - name:
-        url:
+    - name: LOC Standards
+      url: http://www.loc.gov/standards/
+    - name: PREMIS Standards
+      url: http://www.loc.gov/standards/premis/
+    
+    - name: Digital Curation Center
+      url: http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/what-are-metadata-standards
+    
+    - name: Digital Preservation Coalition
+      url: http://www.dpconline.org/handbook/organisational-activities/metadata-and-documentation

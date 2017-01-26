@@ -14,12 +14,17 @@ step-4:
 resources:
     - name: Sustainability of Digital Formats Planning for Library of Congress Collections
       url: http://www.digitalpreservation.gov/formats/
+      description: Background on and suggestions for long term preservation formats.
     
     - name: FITS (id, validate, and extract technical metadata)
       url: http://fitstool.org/
+      description: allows data curators to identify, validate, and extract technical metadata for the objects in their digital repository. It incorporates several third party tools which may also be of use separately, including [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/), [DROID](http://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/), [JHOVE](http://jhove.openpreservation.org/), Metadata Extraction Tool.
       
     - name: Pronom (format information and software)
       url: https://www.nationalarchives.gov.uk/PRONOM/BasicSearch/proBasicSearch.aspx?status=new
+      description: “PRONOM is an on-line information system about data file formats and their supporting software products.”
     
     - name: FFMPEG (Batch convert AV to preservation formats)
       url: https://www.ffmpeg.org/
+      description: Useful for batch conversion of audio / video to preservation formats. 
+
