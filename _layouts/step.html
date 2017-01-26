@@ -14,10 +14,6 @@ layout: default
 			<div class="summary">{% include {{ page.path }}/summary.html %}</div>
      </div>
     <div class="col-lg-4 pull-right col-sm-12">
- {%if page.step == 'metadata' %}
-    
-    {% include defmeta.html %}
-    {% else %}
     <div class="panel panel-default ">
   <div class="panel-heading">
     <h3 class="panel-title">More Resources</h3>
@@ -33,7 +29,7 @@ layout: default
     <a href="{{resource.url}}">{{ resource.name }}</a>
      </li>
 {% endfor %}
-{% endif %}
+
 </ul>
                
   </div>
