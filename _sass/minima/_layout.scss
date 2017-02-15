@@ -73,6 +73,8 @@
     &:hover .trigger {
       display: block;
       padding-bottom: 5px;
+      background:white;
+      z-index:103;
     }
 
     .page-link {
@@ -252,7 +254,7 @@ th{border:solid grey 1px;text-align:center !important; padding:4px;font-weight:n
 table ul li{padding-right:10px;}
 .nav-tabs{background:#23527c; color:white; margin-left:0px;}
 .nav-tabs a{color:white; }
-.tab-content{background:#f2f2f2; padding: 10px 5%; font-size:larger;}
+.tab-content{background:#f2f2f2; padding: 10px 5%;}
 
 body {
     color: #555;
@@ -269,9 +271,10 @@ body {
 font-size:20px; color:#23527c ; white-space: nowrap;line-height:60px; width:18% !important; }
 .button:hover{background:#23527c; color:white; }
 a{font-weight:300;}
-.summary{font-size:larger;}
+//.summary{font-size:larger;}
 .popover{width:350px;}
 .selected{color:#b94a48 !important; font-weight:bold; text-decoration:underline; }
 .smaller{font-size:smaller;}
 img{width:75%; margin:5px; max-width:500px;}
 .indent{margin-left:30px;}
+hr{margin:30px; }
