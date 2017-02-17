@@ -10,8 +10,25 @@ layout: default
     <div class="col-lg-4 pull-right">
 			<br />
 			<button type="button" class="btn btn-success btn-lg centered col-md-12" href="plan-generator.html">Plan Generator!</button>
+
 				<br />
 						<br />		<br />
+
+		<div class="panel panel-default ">
+		<div class="panel-heading">
+		<h3 class="panel-title">Example Plans</h3>
+		</div>
+		<div class="panel-body">
+		<ul>
+		{% for resource in site.data.exampleplans %}
+		<li>
+		<a href="{{resource.url}}">{{ resource.title }}</a>
+		</li>
+		{% endfor %}
+		</ul>
+
+		</div>
+		</div>
     <div class="panel panel-default ">
   <div class="panel-heading">
 		<h3 class="panel-title">Additional Resources</h3>
@@ -27,5 +44,8 @@ layout: default
 
   </div>
 </div>
+
+
+
 </div>
 </div>

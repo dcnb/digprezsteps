@@ -11,7 +11,7 @@
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 33px;
   font-weight: 300;
   line-height: 56px;
   letter-spacing: -1px;
@@ -50,12 +50,13 @@
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
+        z-index: 103;
 
     .menu-icon {
       display: block;
       float: right;
       width: 36px;
-      height: 26px;
+      height: 33px;
       line-height: 0;
       padding-top: 10px;
       text-align: center;
@@ -68,6 +69,10 @@
     .trigger {
       clear: both;
       display: none;
+      padding-bottom: 5px;
+      background:#666;
+      z-index:103;
+      color:white;
     }
 
     &:hover .trigger {

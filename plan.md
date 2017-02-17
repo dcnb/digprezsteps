@@ -16,6 +16,8 @@ This is the “why” of having a digital preservation program and should includ
 - For whom are you preserving this material, both now and in the future? To what purpose?
 - Why do you practice digital preservation for your digital content?
 
+  
+
 ### Scope:
 
 This section should describe “what” the department/program does, and should focus on collection development strategies, audience, and collaboration.

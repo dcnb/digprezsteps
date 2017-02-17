@@ -7,12 +7,6 @@ layout: homepage
 
 ## How to use
 
-First, read the [Instructions](instructions.html) on how to do a self-assessment. Then, use the categories to move from the step you're at to the step you'd like to achieve. 
+First, read the [Instructions](instructions.html) on how to do a self-assessment. Then, use the categories to move from the step you're at to the step you'd like to achieve.
 
-As we mention several times on this website, perfection is the enemy of the good when it comes to digital preservation.  Achieving level 4 in many of these categories will prove impossible without some major technical infrastructure work that many libraries simply don't have the resources to complete. Instead, focus on improving your practices a little bit in each area. Then, as your organization progresses in its work, reassess your status and strive to impove a bit more.
-
-
-A great way to start is by simply creating a digital preservation form. We've provided [guidelines](plan.html) for completing a simple version. We also provide [examples and additional resources](plan.html.)    
-
-
-
+A great way to start is by simply creating a digital preservation form. We've provided [guidelines](plan.html) for completing a simple version. We also provide [examples and additional resources](plan.html)    
