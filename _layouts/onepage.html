@@ -277,7 +277,7 @@ layout: onepagedefault
 </ul>
       {% include security/step4.html %}
     <hr class="onepagebreaker" />
-<h2>Storage and Geographic Location</h2>
+    <h2>Storage and Geographic Location</h2>
 	<h3>Summary/Best Practices</h4>
     {% include storage/summary.html %}
      <hr/>
@@ -340,13 +340,14 @@ layout: onepagedefault
 {% endfor %}
 </ul>
       {% include storage/step4.html %}
-    
-<hr class="onepagebreaker" />
+    <hr class="onepagebreaker" />
+
+
 <h1>Appendix</h1>
 <hr/>
     {% capture appendix %}{% include onepage/plan.md %}{% endcapture %}
 {{ appendix | markdownify }}
-     </div>
+    
    
  
 </div>
