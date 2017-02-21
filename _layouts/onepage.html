@@ -1,0 +1,355 @@
+---
+layout: onepagedefault
+---
+
+<div class="row">
+    <h1>Digital Preservation Step by Step</h1>
+			<div class="col-lg-12">
+				<h2>Introduction</h2>
+                {% capture intro %}{% include onepage/index.md %}{% endcapture %}
+{{ intro | markdownify }}
+			 
+                          {% capture instructions %}{% include onepage/instructions.md %}{% endcapture %}
+{{ instructions | markdownify }}
+			 
+            
+             <hr class="onepagebreaker" />
+<h3>Original National Digital Stewardship Alliance Levels of Digital Preservation Table</h3>
+
+   {% include fulltable.html %}
+  <hr class="onepagebreaker" />
+ <h1>Steps</h1>
+ 
+<h2>File Fixity and Data Integrity</h2>
+	<h3>Summary/Best Practices</h4>
+    {% include fixity/summary.html %}
+     <hr/>
+      <hr/><h3>Level 0 to Level 1</h3>
+      <ul >
+{% for bullet in site.data.fixity.level-1 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+		  {% include fixity/step1.html %}
+
+   
+
+      <br/>
+      <hr/><h3>Level 1 to Level 2</h3>
+       <ul >
+{% for bullet in site.data.fixity.level-2 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+			  {% include fixity/step2.html %}
+
+
+   
+      <br/>
+      <hr/><h3>Level 2 to Level 3</h3>
+       <ul >
+{% for bullet in site.data.fixity.level-3 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include fixity/step3.html %}
+   
+    
+      <br/>
+      <hr/><h3>Level 3 to Level 4</h3>
+       <ul >
+{% for bullet in site.data.fixity.level-4 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include fixity/step4.html %}
+
+<hr class="onepagebreaker" />
+<h2>File Formats</h2>
+	<h3>Summary/Best Practices</h4>
+    {% include formats/summary.html %}
+     <hr/>
+      <hr/><h3>Level 0 to Level 1</h3>
+      <ul >
+{% for bullet in site.data.formats.level-1 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+		  {% include formats/step1.html %}
+
+   
+
+      <br/>
+      <hr/><h3>Level 1 to Level 2</h3>
+       <ul >
+{% for bullet in site.data.formats.level-2 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+			  {% include formats/step2.html %}
+
+
+   
+      <br/>
+      <hr/><h3>Level 2 to Level 3</h3>
+       <ul >
+{% for bullet in site.data.formats.level-3 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include formats/step3.html %}
+   
+    
+      <br/>
+      <hr/><h3>Level 3 to Level 4</h3>
+       <ul >
+{% for bullet in site.data.formats.level-4 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include formats/step4.html %}
+    <hr class="onepagebreaker" />
+<h2>Metadata</h2>
+	<h3>Summary/Best Practices</h4>
+    {% include metadata/summary.html %}
+     <hr/>
+      <hr/><h3>Level 0 to Level 1</h3>
+      <ul >
+{% for bullet in site.data.metadata.level-1 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+		  {% include metadata/step1.html %}
+
+   
+
+      <br/>
+      <hr/><h3>Level 1 to Level 2</h3>
+       <ul >
+{% for bullet in site.data.metadata.level-2 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+			  {% include metadata/step2.html %}
+
+
+   
+      <br/>
+      <hr/><h3>Level 2 to Level 3</h3>
+       <ul >
+{% for bullet in site.data.metadata.level-3 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include metadata/step3.html %}
+   
+    
+      <br/>
+      <hr/><h3>Level 3 to Level 4</h3>
+       <ul >
+{% for bullet in site.data.metadata.level-4 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include metadata/step4.html %}
+    <hr class="onepagebreaker" />
+<h2>Information Security</h2>
+	<h3>Summary/Best Practices</h4>
+    {% include security/summary.html %}
+     <hr/>
+      <hr/><h3>Level 0 to Level 1</h3>
+      <ul >
+{% for bullet in site.data.security.level-1 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+		  {% include security/step1.html %}
+
+   
+
+      <br/>
+      <hr/><h3>Level 1 to Level 2</h3>
+       <ul >
+{% for bullet in site.data.security.level-2 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+			  {% include security/step2.html %}
+
+
+   
+      <br/>
+      <hr/><h3>Level 2 to Level 3</h3>
+       <ul >
+{% for bullet in site.data.security.level-3 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include security/step3.html %}
+   
+    
+      <br/>
+      <hr/><h3>Level 3 to Level 4</h3>
+       <ul >
+{% for bullet in site.data.security.level-4 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include security/step4.html %}
+    <hr class="onepagebreaker" />
+<h2>Storage and Geographic Location</h2>
+	<h3>Summary/Best Practices</h4>
+    {% include storage/summary.html %}
+     <hr/>
+      <hr/><h3>Level 0 to Level 1</h3>
+      <ul >
+{% for bullet in site.data.storage.level-1 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+		  {% include storage/step1.html %}
+
+   
+
+      <br/>
+      <hr/><h3>Level 1 to Level 2</h3>
+       <ul >
+{% for bullet in site.data.storage.level-2 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+			  {% include storage/step2.html %}
+
+
+   
+      <br/>
+      <hr/><h3>Level 2 to Level 3</h3>
+       <ul >
+{% for bullet in site.data.storage.level-3 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include storage/step3.html %}
+   
+    
+      <br/>
+      <hr/><h3>Level 3 to Level 4</h3>
+       <ul >
+{% for bullet in site.data.storage.level-4 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include storage/step4.html %}
+    
+<hr class="onepagebreaker" />
+<h1>Appendix</h1>
+<hr/>
+    {% capture appendix %}{% include onepage/plan.md %}{% endcapture %}
+{{ appendix | markdownify }}
+     </div>
+   
+ 
+</div>
+
+
+

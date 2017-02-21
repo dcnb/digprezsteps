@@ -21,17 +21,17 @@
 <br/>
 <h3>For Users of DSpace and ContentDM </h3>
 <p><strong>DSpace </strong>- users of DSpace can inventory files using the &ldquo;Profile Bitstream Formats&rdquo; from admin page: http://{YourDSpaceServer}/xmlui/admin/curate :</p>
-<p class="center" ><a href="/images/image03.png"><img src="/images/image03.png"></a>
+<p class="center" ><a src="images/image03.png"><img src="images/image03.png"></a>
 <br/ >
 
 <p>Or the DSpace postgres database can be queried directly. Below are some sample sql queries:</p>
 <div class="indent"><p><strong>--Number of items and format description. </strong> </p>
 <p class="smaller">SELECT bitstreamformatregistry.short_description, COUNT(*) FROM item, item2bundle, bundle2bitstream, bitstream, bitstreamformatregistry WHERE item.in_archive = 't' AND item.item_id = item2bundle.item_id AND item2bundle.bundle_id = bundle2bitstream.bundle_id AND bundle2bitstream.bitstream_id = bitstream.bitstream_id AND bitstream.bitstream_format_id = bitstreamformatregistry.bitstream_format_id GROUP BY bitstreamformatregistry.short_description;</p>
-<p class="center" ><a  href="/images/image00.png"><img src="/images/image00.png"></a>
+<p class="center" ><a  src="images/image00.png"><img src="images/image00.png"></a>
 <p><strong>--Number of bitstreams for format type, e.g. 4 (PDF):</strong></p>
 <p class="smaller">SELECT COUNT(*) FROM item, item2bundle, bundle2bitstream, bitstream WHERE item.in_archive = 't' AND item.item_id = item2bundle.item_id AND item2bundle.bundle_id = bundle2bitstream.bundle_id AND bundle2bitstream.bitstream_id = bitstream.bitstream_id AND bitstream.bitstream_format_id = 4;</p>
-<p class="center" ><a  href="/images/image01.png"><img src="/images/image01.png"></a>
+<p class="center" ><a  src="images/image01.png"><img src="images/image01.png"></a>
 </div>
 <br/><br />
 <p><strong>CONTENTdm</strong> users can use Reports: (Collections / Reports / Item Types)</p>
-<p class="center" ><a  href="/images/image04.png"><img src="/images/image04.png"></a>
+<p class="center" ><a  src="images/image04.png"><img src="images/image04.png"></a>
