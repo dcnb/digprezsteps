@@ -2,8 +2,6 @@
 title: Digital Preservation Plan
 layout: plan
 path: plan
-<<<<<<< HEAD
-=======
 ---
 
 ## Digital Preservation Plan
@@ -17,8 +15,6 @@ This is the “why” of having a digital preservation program and should includ
 - What does your program do?  
 - For whom are you preserving this material, both now and in the future? To what purpose?
 - Why do you practice digital preservation for your digital content?
-
-  
 
 ### Scope:
 
@@ -51,17 +47,17 @@ This section of the plan covers the details of “how” the program operates, a
 - Who has access to the archival materials?
 - What is the chain of command for read, write, delete, and move authority?  
 - Who makes changes to files or formats? What are the procedures for documenting any change?  
->>>>>>> 27c5a89e860c25c8e543e00a7f03df76be523ede
 
----
 
-## <span>Instructions</span>
+#### [Metadata](metadata.html):
 
-1. <span>You will first need an assessment of the digital preservation practices at your institution. You can do this yourself, by going through each of the NDSA’s five categories -- Storage and Geographic Location; File Fixity and Data Integrity; Information Security; Metadata; and File Formats -- and assigning your institution a level for each, from 0 to 4\. Alternatively, if you or someone from your institution filled out our survey in the Spring of 2016 (
-<a href="#" data-toggle="popover" data-placement="bottom"  title="List of institutions that filled out the survey:" data-content=" Chemeketa Community College, Clark College, Concordia University - Portland, Eastern Oregon University, Lewis & Clark College, Linfield College, Marylhurst University, OHSU, Oregon Institute of Technology Library, Oregon State University, Pacific University, Portland State University, Reed College, Seattle Pacific University, Seattle University, The Evergreen State College, University of Idaho Library, University of Portland, University of Washington Libraries, Washington State University, Western Washington University, Whitman College and Northwest Archives, Willamette University">see participant list</a>
-), you may also contact Devin Becker (</span>[<span>dbecker@uidaho.edu</span>](mailto:dbecker@uidaho.edu)<span>) to receive our (admittedly subjective) assessment.</span>
+- What are the metadata procedures your institution or program abides by?  
+- What types of metadata do you keep?(options: transformative, administrative, descriptive, and technical)  
 
-2. Once you have your assessment, you can go directly to any of or our sections to determine which steps you might be able to take to improve your digital preservation practices in one of the five areas. Simply take your score from that section, and then go to the subsection on how to move from your level to the next. For example, if you are at Level 1 for Information Security, you would go to the section titled  “Level 1 → Level 2.” In that subsection, you will find instructions, links to resources, and specific steps that will help you improve your practices in that area.
 
-<span>One note: often an institution may be doing a variety of digital preservation actions that might be greater than or less than their assigned level. It’s advised that when doing this exercise, participants also look at levels previous to where they are assigned to make sure they’re fulfilling those steps as well.  </span>
+#### [File Formats](formats.html)
 
+- How many of each file format do you have?, be specific to the types of files (text, moving image, still image, audio, etc.).  
+- What are the naming conventions for your files? Are there any exceptions to the naming rules?
+- What is the plan, schedule, and selected software component for any necessary format migrations that can be perceived down the line?  
+- What is schedule for assessing file outdatedness? How often are files updated once format migration is decided?
