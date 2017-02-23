@@ -10,11 +10,23 @@ layout: default
 			<div class="col-lg-8">
 			<h2>Introduction</h2>
 			 {{ content }}
+       <hr>
+       	<a href="instructions.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Asessement Instructions</button></a>
+         <br/><br/>
+			<a href="plan.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Build a Digital Preservation Plan</button></a>
+        <hr>
+     
+  {% for my_page in site.pages  %}
+          {% if my_page.order %}
+          	<a href="{{ my_page.url | relative_url }}"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">{{ my_page.title | escape }}</button></a>
+       <br/><br/>
+          {% endif %}
+        {% endfor %}
+         <hr>
      </div>
     <div class="col-lg-4 pull-right">
 			<a href="onepage.html"><button type="button" class="btn btn-default btn-lg centered col-md-12">Printable Version</button></a>
-      <hr>
-			<a href="plan.html"><button type="button" class="btn btn-primary btn-lg centered col-md-12">Build a Digital Preservation Plan</button></a>
+      
 			<br />
 					<br />		<br />
     <div class="panel panel-default ">
@@ -35,12 +47,7 @@ layout: default
 </div>
 </div>
 </div>
-<p class="center " >
-  {% for my_page in site.pages  %}
-          {% if my_page.order %}
-          <a class="page-link button" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}</p>
+
 <hr />
 <h3>Original National Digital Stewardship Alliance Levels of Digital Preservation Table</h3>
 
