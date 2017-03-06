@@ -4,11 +4,11 @@ layout: plan
 path: plan
 ---
 
-## Digital Preservation Plan
+## Digital Preservation Plan Template
 
-This document lays out some sections and questions for a basic preservation plan. We have also created a form for you to fill out that should help advance this process. Click on the button on the right to fill out the form.
+This document lays out some sections and questions for a basic preservation plan. We have also created a form for you to fill out that should help advance this process. Click on the button on the right to fill out the form. The questions and notes below will help assist you to create a document as well. 
 
-### Rationale:
+### Section 1 - Rationale:
 
 This is the “why” of having a digital preservation program and should include portions of your mission, how the program relates to it, and the importance of digital preservation to the ongoing success of digital collections and archives.
 
@@ -16,14 +16,14 @@ This is the “why” of having a digital preservation program and should includ
 - For whom are you preserving this material, both now and in the future? To what purpose?
 - Why do you practice digital preservation for your digital content?
 
-### Scope:
+### Section 2 - Scope:
 
 This section should describe “what” the department/program does, and should focus on collection development strategies, audience, and collaboration.
 
 - What does your program digitize? How are these decisions made? You can format this as a simple paragraph or a bulleted list. Including collection development plans in this area should also work.  
 - Does your program work with other departments or programs to do what it does? Who? What is the relationship?
 
-### Operating Procedures and Strategies:
+### Section 3 - Operating Procedures and Strategies:
 
 This section of the plan covers the details of “how” the program operates, and should lay out how an organization can meet or work to meet various levels of the NDSA's Levels of Digital Preservation].
 
