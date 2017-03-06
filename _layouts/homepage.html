@@ -12,9 +12,9 @@ layout: default
 			 {{ content }}
        <hr>
        	<a href="instructions.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Asessement Instructions</button></a>
-         <br/><br/>
-			<a href="plan.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Build a Digital Preservation Plan</button></a>
-        <hr>
+        <br/><br/> 
+        <br/>
+        
      
   {% for my_page in site.pages  %}
           {% if my_page.order %}
@@ -22,7 +22,9 @@ layout: default
        <br/><br/>
           {% endif %}
         {% endfor %}
-         <hr>
+         <br/>
+         
+			<a href="plan.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Build a Digital Preservation Plan</button></a>
      </div>
     <div class="col-lg-4 pull-right">
 			<a href="onepage.html"><button type="button" class="btn btn-default btn-lg centered col-md-12">Printable Version</button></a>
