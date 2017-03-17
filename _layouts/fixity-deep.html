@@ -1,0 +1,186 @@
+---
+layout: default
+---
+
+<div class="home">
+   
+
+
+<div class="row">
+			<div class="col-lg-8">
+               <h1>{{ page.title}}</h1>
+			<h3>Summary/Best Practices</h3>
+
+			<div class="summary">{% include {{ page.path }}/summary.html %}</div>
+     </div>
+    <div class="col-lg-4 pull-right col-sm-12 center">
+  	<a href="/fixity.html"><button type="button" class="btn btn-default  ">Back to Basic File Fixity &amp; Data Integrity Steps</button></a>
+      <br/><br/>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Two types of checksum algorithms </button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Checksum Algorithms</h4>
+      </div>
+      <div class="modal-body">
+       <h3>MD5</h3>
+<p>The MD5 message-digest algorithm is a widely used cryptographic hash function producing a 128 bit hash value, typically expressed in text format as a 32 digit hexadecimal number. This is the most commonly used checksum algorithm and is ideal for most files.</p>
+<p>Terminal command to create MD5 checksum:</p>
+<p><em>md5 -r /Users/Username/Desktop/image.tif </em></p>
+<p><em>Output: </em></p>
+<p><em>4ae9ea162e3bc88bb4de06996f9a8148 /Users/Username/Desktop/image.tif</em></p>
+<h3>SHA-256</h3>
+<p>With an output hash value of 256 bits (64 digit hexadecimal number), SHA-256 requires more relative processing time than MD5 and is ideally suited for larger files and those with a more complex structure like video.</p>
+<p>Terminal command to create SHA-256 checksum:</p>
+<p><em>shasum -a 256 /Users/Username/Desktop/video.mkv</em></p>
+<p><em>Output: </em></p>
+<p><em>ebecf1ed49baf94555e8a6313df254dfe57eb4d2209820392806aa0bd31db0a9 &nbsp;/Users/Username/Desktop/video.mkv</em></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<br/><br/>
+<button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal2">Fixity Tool List </button>
+
+<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Fixity Tools</h4>
+      </div>
+      <div class="modal-body">
+
+<p>Command-line: </p>
+<ul>
+<li><a href="https://github.com/LibraryOfCongress/bagit-java">Library of Congress BagIt</a> (Java)</li>
+<li><a href="https://github.com/LibraryOfCongress/bagit-python">Library of Congress BagIt</a> (Python) </li>
+</ul>
+
+<p>Cross-platform GUI:</p>
+<ul>
+<li><a href="https://github.com/usnationalarchives/File-Analyzer">NARA File Analyzer</a></li>
+<li><a href="https://www.avpreserve.com/tools/fixity/">AVPreserve Fixity</a></li>
+<li><a href="https://github.com/LibraryOfCongress/bagger">Library of Congress Bagger</a></li>
+<li><a href="http://quickhash-gui.org">Quickhash</a></li>
+</ul>
+
+<p>Windows GUI:</p>
+<ul>
+<li><a href="http://www.programmingunlimited.net/siteexec/content.cgi?page=fv">FileVerifier++</a></li>
+<li><a href="http://www.md5summer.org">MD5summer</a></li>
+<li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=11533">Microsoft File Checksum Integrity Verifier</a></li>
+</ul>
+
+<p>Mac GUI:</p>
+<ul>
+<li><a href="http://www.julifos.com/soft/checksum/">checkSum+</a></li>
+</ul>
+ 
+
+
+  </div>
+     
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="row">
+	<h2>Step by Step</h2>
+ <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#tab1">Level 0 to Level 1</a></li>
+    <li><a data-toggle="tab" href="#tab2">Level 1 to Level 2</a></li>
+    <li><a data-toggle="tab" href="#tab3">Level 2 to Level 3</a></li>
+    <li><a data-toggle="tab" href="#tab4">Level 3 to Level 4</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="tab1" class="tab-pane fade in active">
+      <br/>
+      <h3>Level 0 to Level 1</h3>
+      <ul >
+{% for bullet in site.data.[page.path].level-1 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+		  {% include {{ page.path }}/step1.html %}
+
+    </div>
+    <div id="tab2" class="tab-pane fade">
+      <br/>
+      <h3>Level 1 to Level 2</h3>
+       <ul >
+{% for bullet in site.data.[page.path].level-2 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+			  {% include {{ page.path }}/step2.html %}
+
+    </div>
+    <div id="tab3" class="tab-pane fade">
+      <br/>
+      <h3>Level 2 to Level 3</h3>
+       <ul >
+{% for bullet in site.data.[page.path].level-3 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include {{ page.path }}/step3.html %}
+    </div>
+    <div id="tab4" class="tab-pane fade">
+      <br/>
+      <h3>Level 3 to Level 4</h3>
+       <ul >
+{% for bullet in site.data.[page.path].level-4 %}
+  <li class="step-reminder">
+
+      {{ bullet.text }}
+
+
+  </li>
+{% endfor %}
+</ul>
+      {% include {{ page.path }}/step4.html %}
+    </div>
+  </div>
+  <br />
+
+			</div>
+
+</div>

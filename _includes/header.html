@@ -15,8 +15,8 @@
 
       <div class="trigger" id="trigger">
          <a class="page-link {% if page.url == '/instructions.html' %}selected{% else %} {% endif %}  " href="instructions.html">Instructions</a>
-          <a class="page-link {% if page.url == '/plan.html' %}selected{% else %} {% endif %}" href="plan.html">Plan</a>
-         <span class="header-breaker"> | </span> 
+          
+               <span class="header-breaker"> | </span> 
            <hr class="header-breaker-phone"/> 
         {% for my_page in site.pages %}
           {% if my_page.order %}
@@ -29,7 +29,9 @@
          {% endif %}
           {% endif %}
         {% endfor %}
-
+        <span class="header-breaker"> | </span> 
+          <hr class="header-breaker-phone"/> 
+<a class="page-link {% if page.url == '/plan.html' %}selected{% else %} {% endif %}" href="plan.html">Plan</a>
       </div>
     </nav>
 
