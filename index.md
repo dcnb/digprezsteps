@@ -9,4 +9,4 @@ layout: homepage
 
 First, read the [Instructions](instructions.html) on how to do a self-assessment. Then, use the categories to move from the step you're at to the step you'd like to achieve.
 
-A great way to start is by simply creating a digital preservation form. We've provided [guidelines](plan.html) for completing a simple version. We also provide [examples and additional resources](plan.html)    
+A great way to start is by simply going through our [digital presrevation activities checklist](https://docs.google.com/forms/d/e/1FAIpQLSf3CfHy4TZZWHiLOzmfCFDP2S756sx8bBGGU-7ihVrg05i5kA/viewform?usp=sf_link).  We've also provided [guidelines and examples](policy.html) to help those interested in completing a digital preservation policy, as well as an [interactive form](https://docs.google.com/forms/d/e/1FAIpQLSfbI6PxmXgLBai5Bz_SchaZFr5hRijqO7mPGJRoq37VE_DqYg/viewform) to help create a rough draft to begin a policy. 
