@@ -6,7 +6,7 @@ path: policty
 
 ## Digital Preservation Policy Template
 
-This page lays out some sections and questions for a basic preservation policy. The questions below are mirroed in a form you can fill out that should help to generate a rough draft of a beginning digital preservation plan. 
+This page lays out some sections and questions for a basic preservation policy. The questions below are mirrored in the form <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfbI6PxmXgLBai5Bz_SchaZFr5hRijqO7mPGJRoq37VE_DqYg/viewform">available here</a> and via the green button to the right that should help to generate a rough draft of a beginning digital preservation plan. 
 
 ### Section 1 - Rationale:
 
