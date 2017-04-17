@@ -3,20 +3,20 @@
 <p class="center">Verifying MD5 checksums</p>
 <p>If fixity information does not exist for a file, it is important to establish that trust level from this point forward. Creating fixity information for a file can be accomplished a number of ways.</p>
 <p>BagIt is a widely used packaging format developed as part of the National Digital Information Infrastructure and Preservation Program to accurately transfer digital content across networks and file systems.</p>
-<p>The BagIt specification is organized around the notion of a &ldquo;bag&rdquo;. A bag is a named file system directory that minimally contains:</p>
+<p>The BagIt specification is organized around the notion of a "bag". A bag is a named file system directory that minimally contains:</p>
 <ul>
-<li>a &ldquo;data&rdquo; directory that includes the digital content being preserved. Files can also be placed in subdirectories, but empty directories are not supported</li>
+<li>a "data" directory that includes the digital content being preserved. Files can also be placed in subdirectories, but empty directories are not supported</li>
 </ul>
 <ul>
-<li>at least one manifest file that itemizes the filenames present in the &ldquo;data&rdquo; directory, as well as their checksums. The particular checksum algorithm is included as part of the manifest filename. For instance, a manifest file with SHA-256 checksums is named &ldquo;manifest-sha256.txt&rdquo;</li>
+<li>at least one manifest file that itemizes the filenames present in the "data" directory, as well as their checksums. The particular checksum algorithm is included as part of the manifest filename. For instance, a manifest file with SHA-256 checksums is named "manifest-sha256.txt"</li>
 </ul>
 <ul>
-<li>a &ldquo;bagit.txt&rdquo; file that identifies the directory as a bag, the version of the BagIt specification that it adheres to, and the character encoding used for tag files</li>
+<li>a "bagit.txt" file that identifies the directory as a bag, the version of the BagIt specification that it adheres to, and the character encoding used for tag files</li>
 </ul>
 <p>The specification allows for several optional tag files (in addition to the manifest). The specification defines the following optional tag files:</p>
 <ul>
-<li>a &ldquo;bag-info.txt&rdquo; file which details metadata for the bag, using colon-separated key/value pairs</li>
-<li>a tag manifest file which lists tag files and their associated checksums (e.g. &ldquo;tagmanifest-md5.txt&rdquo;)</li>
+<li>a "bag-info.txt" file which details metadata for the bag, using colon-separated key/value pairs</li>
+<li>a tag manifest file which lists tag files and their associated checksums (e.g. "tagmanifest-md5.txt")</li>
 </ul>
 <p>On receipt of a bag, BagIt can examine the manifest file to make sure that the files are present and that their checksums are correct. This allows for accidentally removed or corrupted files to be identified. Below is an example of a bag that encloses one file of payload.</p>
 <p class="center"><a src="images/fixity-deep05.jpg"><img class="center" src="images/fixity-deep05.jpg"></a></p>
