@@ -1,27 +1,47 @@
 <p>Depending on where your items are stored, you may be able to use some of the following tools to inventory file formats. Several graphical and command line tools are available for file identification, including <a href="http://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/">DROID</a>, <a href="http://jhove.openpreservation.org/">JHOVE</a> and <a href="http://fitstool.org/">FITS</a>.</p>
-<p>For a quick and dirty inventory of file extensions, folders can be sorted by file type.</p>
+<p>For a quick inventory of file extensions in use in a directory, simply sort the folder by file type (usually by clicking on the 'type' column').</p>
 <p>Command line tools can also be used to find and count file types in a directory and all subdirectories:</p>
 <table style="width:90%; margin:0 auto;">
+
 <tbody>
 <tr>
-<td colspan="2">
-<p>prompt&gt;<em> find . -name "*.jpg" |wc -w</em></p>
-<p>Returns the number of files with a .jpg extension at or below the current directory.  Replace .jpg with any file extension you are interested in inventorying.  This only reports on file extensions, and does not test if the file is actually of that type.</p>
-<p> </p>
+<td>
+<p>Windows</p>
+</td>
+<td>
+<p>prompt&gt; dir *jpg /b /s | find /c /v ""</p>
+</td>
+<td rowspan="2">
+<p>Returns the number of files with a .jpg extension at or below the current directory. &nbsp;&nbsp;Replace .jpg with any file extension you are interested in inventorying. &nbsp;&nbsp;This only reports on file extensions, and does not test if the file is actually of that type.</p>
 </td>
 </tr>
 <tr>
-<td colspan="2">
-<p>prompt&gt;<em> find . -name "*.jpg" -exec file {} \;</em></p>
-<p>Returns a list of files with the .jpg extension and their 'file' type at or below the current directory.  Replace .jpg with any file extension you are interested in inventorying. </p>
-<p> </p>
+<td>
+<p>Mac OSX / Unix</p>
+</td>
+<td>
+<p>prompt&gt;<em> find . -name "*.jpg" |wc -w</em></p>
 </td>
 </tr>
 </tbody>
 </table>
 <br/>
-<h3>For Users of DSpace and ContentDM </h3>
-<p><strong>DSpace </strong>- users of DSpace can inventory files using the "Profile Bitstream Formats" from admin page: http://{YourDSpaceServer}/xmlui/admin/curate :</p>
+
+
+<button type="button" class="btn btn-info btn-lg " data-toggle="modal" data-target="#myModal2">For Users of DSpace and ContentDM </button>
+</p>
+<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">CONTENTdm and DSpace Instructions</h4>
+      </div>
+      <div class="modal-body">
+ <p><strong>DSpace </strong>- users of DSpace can inventory files using the "Profile Bitstream Formats" from admin page: http://{YourDSpaceServer}/xmlui/admin/curate :</p>
 <p class="center" ><a src="images/image03.png"><img src="images/image03.png"></a>
 <br/ >
 
@@ -35,4 +55,13 @@
 </div>
 <br/><br />
 <p><strong>CONTENTdm</strong> users can use Reports: (Collections / Reports / Item Types)</p>
-<p class="center" ><a  src="images/image04.png"><img src="images/image04.png"></a>
+<p class="center" ><a  src="images/image04.png"><img src="images/image04.png"></a></p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>

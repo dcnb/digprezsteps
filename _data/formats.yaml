@@ -12,19 +12,15 @@ step-2:
 step-3:
 step-4:
 resources:
-    - name: Sustainability of Digital Formats Planning for Library of Congress Collections
+    - name: Sustainability of Digital Formats - Planning for Library of Congress Collections
       url: http://www.digitalpreservation.gov/formats/
-      description: long-term presrvation formats
-    
+
     - name: FITS (id, validate, and extract technical metadata)
       url: http://fitstool.org/
-      description: identify, validate, and extract technical metadata for the objects in a digital repository. 
       
     - name: Pronom (format information and software)
       url: https://www.nationalarchives.gov.uk/PRONOM/BasicSearch/proBasicSearch.aspx?status=new
-      description: Data file formats and their supporting software products.”
     
     - name: FFMPEG (Batch convert AV to preservation formats)
       url: https://www.ffmpeg.org/
-      description: A/V batch conversion to preservation formats. 
 
