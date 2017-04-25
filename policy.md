@@ -5,8 +5,10 @@ path: policty
 ---
 
 ## Digital Preservation Policy Template
+The sections, questions, and suggestions below&mdash;as well as the example policies, the policy template document, and the guidelines & resources also collected here&mdash;are intended to help institutions begin drafting a digital preservation policy.  
 
-This page lays out some sections and questions for a basic preservation policy. The questions below are mirrored in the form <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfbI6PxmXgLBai5Bz_SchaZFr5hRijqO7mPGJRoq37VE_DqYg/viewform">available here</a> and via the green button to the right that should help to generate a rough draft of a beginning digital preservation plan. 
+Much of the work in creating a digital preservation policy involves building awareness of the issues as much as building a policy. We encourage you to use this page and our other step-by-step resources to initiate discussions and collaboratiev probelm solving at your institution. In that vein, the activities checklist prompts institutions to evaluate their current digital preservation practices as they relate to these policies, and may serve as a good start for this process.
+<hr />
 
 ### Section 1 - Rationale:
 
