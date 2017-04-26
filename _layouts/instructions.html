@@ -27,7 +27,7 @@ path: instructions
 <p class="center " >
   {% for my_page in site.pages  %}
           {% if my_page.order %}
-          <a class="page-link button" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          <a class="btn btn-default btn-lg" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}</p>
 <hr />

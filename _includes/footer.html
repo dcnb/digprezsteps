@@ -49,9 +49,16 @@ $(document).ready(function(){
     $('[data-toggle="popover"]').popover();
 });
 // Javascript to enable link to tab
-$(function () {
-   var activeTab = $('[href=' + location.hash + ']');
-   activeTab && activeTab.tab('show');
+$(function(){
+  var hash = window.location.hash;
+  hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+
+  $('.nav-tabs a').click(function (e) {
+    $(this).tab('show');
+    var scrollmem = $('body').scrollTop() || $('html').scrollTop();
+    window.location.hash = this.hash;
+    $('html,body').scrollTop(scrollmem);
+  });
 });
 
 </script>
