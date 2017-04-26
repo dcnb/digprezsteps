@@ -2,7 +2,7 @@
 
   <div class="wrapper" style="max-width:1600px;">
 
-    <a class="site-title" href="{{ "/" | relative_url}}">{{ site.title | escape }}</a>
+    <a class="site-title" href="index.html">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
       <span class="menu-icon" id="menu-phone">
@@ -22,16 +22,16 @@
           {% if my_page.order %}
           {% if page.url == my_page.url %}
         <!--  <a class="page-link selected hidden-md hidden-sm" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>-->
-          <a class="page-link selected " href="{{ my_page.url | relative_url }}">{{ my_page.path | capitalize }}</a>
+          <a class="page-link selected " href="{{ my_page.path }}.html">{{ my_page.path | capitalize }}</a>
            {% else %}
           <!--<a class="page-link hidden-md hidden-sm" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>-->
-          <a class="page-link " href="{{ my_page.url | relative_url }}">{{ my_page.path | capitalize }}</a>
+          <a class="page-link " href="{{ my_page.path }}.html">{{ my_page.path | capitalize }}</a>
          {% endif %}
           {% endif %}
         {% endfor %}
         <span class="header-breaker"> | </span> 
           <hr class="header-breaker-phone"/> 
-<a class="page-link {% if page.url == '/plan.html' %}selected{% else %} {% endif %}" href="policy.html">Policy Builder</a>
+<a class="page-link {% if page.url == '/policy.html' %}selected{% else %} {% endif %}" href="policy.html">Policy Builder</a>
       </div>
     </nav>
 

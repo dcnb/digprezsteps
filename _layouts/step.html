@@ -26,7 +26,7 @@ layout: default
 
 {% for resource in site.data.[page.step]resources %}
   <li>
-    <a href="{{resource.url}}">{{ resource.name }}</a>{% if resource.description %}- {{ resource.description }}
+    <a href="{{resource.url}}" target="_blank">{{ resource.name }}</a>{% if resource.description %}- {{ resource.description }}
    
     {% endif %}
      </li>
