@@ -16,6 +16,19 @@ $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
+$light-blue: #AFE0F8 !default; 
+$light-blue-dark: darken($light-blue, 25%) !default;
+$light-blue-darker: darken($light-blue, 40%) !default;
+$dark-blue: #274C5F !default; 
+$dark-blue-light: lighten($dark-blue, 40%) !default;
+$light-teal: #9FC5BD !default; 
+$mauve: #CC7C72 !default; 
+$mauve-dark: darken($mauve, 25%) !default;
+$mauve-light: lighten($mauve, 10%) !default;
+$pink: #F8AFB7 !default; 
+$pink-dark: darken($pink, 25%) !default;
+
+
 // Width of the content area
 $content-width:    1200px !default;
 

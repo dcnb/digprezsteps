@@ -2,12 +2,13 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: none;
+  border-bottom: 8px double $light-teal;
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
 }
 
 .site-title {
@@ -17,6 +18,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  text-decoration: none !important;
 
   &,
   &:visited {
@@ -36,7 +38,8 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
-
+     text-decoration: none !important;
+&:hover{ text-decoration: underline !important;}
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
@@ -97,8 +100,9 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 3px solid $light-teal;
   padding: $spacing-unit 0;
+  background: $grey-color-light;
 }
 
 .footer-heading {
@@ -275,7 +279,7 @@ font-size:20px; color:#23527c ; white-space: nowrap;line-height:60px; width:18% 
 a{font-weight:300;}
 //.summary{font-size:larger;}
 .popover{width:350px;}
-.selected{color:#b94a48 !important; font-weight:bold; text-decoration:underline; }
+.selected{color:$mauve !important; font-weight:bold; text-decoration:underline; }
 .smaller{font-size:smaller;}
 img{width:75%; margin:5px; max-width:500px;}
 .indent{margin-left:30px;}
@@ -286,4 +290,49 @@ hr{margin:30px; }
    
     .modal{display:none;}
 
+}
+
+
+
+    
+
+
+.nav-tabs {
+    background: $dark-blue-light;}
+
+    .btn-info {
+    color: #fff;
+    background-color: $mauve;
+    border-color:  $mauve;
+}
+ .btn-info:hover {
+    color: #fff;
+    background-color: $mauve-dark;
+    border-color:  $mauve-dark;
+}
+ .btn-success {
+    color: #fff;
+    background-color: $mauve;
+    border-color:  $mauve;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: $mauve-dark;
+    border-color:  $mauve-dark;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: $dark-blue;
+}
+
+.tab-content {
+    background: #f2f2f2;
+    padding: 10px 5%;
+    box-shadow: 5px 5px 5px #999;
+}
+
+.nav-tabs {
+    background: #85b5cd;
+    box-shadow: 5px 5px 5px #999;
 }
