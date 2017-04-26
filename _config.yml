@@ -1,5 +1,6 @@
 ---
 title: Digital Preservation Step By Step
+author: Orbis Cascade Alliance 
 timezone: UTC
 collections:
   posts:
@@ -8,13 +9,11 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: dbecker@uidaho.edu
-description: 'A site to help you improve your digital preservation practices
-
-'
+email: ccd-digitalpreservationwg@orbiscascade.org
+description: "Steps to help you improve your institution's digital preservation practices."
 baseurl: ''
 url: ''
-github_username: dcnb
+github_username: orbiscascadeccd
 markdown: kramdown
 gems:
 - jekyll-feed

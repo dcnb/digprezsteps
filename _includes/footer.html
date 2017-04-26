@@ -8,16 +8,14 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
+           <a href='https://www.orbiscascade.org/'>Orbis Cascade Alliance</a> <br/>
+            Digital Preservation Working Group
             </li>
             {% if site.email %}
             <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
         </ul>
+        <p style="font-size:10px;">Site produced using Jekyll and GitHub Pages <br/> (Minima theme customized by Devin Becker)</p> 
       </div>
 
       <div class="footer-col footer-col-2">
@@ -38,6 +36,9 @@
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
+       <br/>
+        <p style="font-size:smaller">Contributors: Sara Amato, Devin Becker, Laura Buchholz, Moriah Caruso, Brian Davis, and Danielle Mericle.</p> 
+        
       </div>
     </div>
 
