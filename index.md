@@ -7,6 +7,6 @@ layout: homepage
 
 ## How to use
 
-The easiest way to use this site is simply to browse the material found on the various pages. We've also provided some more in-depth [instructions](instructions.html) on how to use this site after performing a self-assessment. 
+The easiest way to use this site is simply to browse the material found on the various pages and use the material to learn about ways to improve your practices from one level to the next. We've also provided some more in-depth [instructions](instructions.html) on how to use this site after performing a self-assessment. 
 
- We've also provided [guidelines and examples](policy.html) to help those interested in completing a digital preservation policy, as well as an <a  href="assets/DigitalPreservationPolicyTemplate.rtf" target="_blank">document template</a> to help create a rough draft to begin a policy and an <a  href="assets/DigitalPreservationActivitiesChecklist.rtf" target="_blank">activities checklist</a>.
+ You can also find [digital preservation policy templates, guidelines, and examples](policy.html) to help those interested in completing a digital preservation policy for their institutions.
