@@ -7,6 +7,6 @@ layout: homepage
 
 ## How to use
 
-First, read the [Instructions](instructions.html) on how to do a self-assessment. Then, use the categories to move from the step you're at to the step you'd like to achieve.
+The easiest way to use this site is simply to browse the material found on the various pages. We've also provided some more in-depth [instructions](instructions.html) on how to use this site after performing a self-assessment. 
 
-A great way to start is by simply going through our <a  href="https://docs.google.com/forms/d/e/1FAIpQLSf3CfHy4TZZWHiLOzmfCFDP2S756sx8bBGGU-7ihVrg05i5kA/viewform?usp=sf_link" target="_blank">digital preservation activities checklist</a>.  We've also provided [guidelines and examples](policy.html) to help those interested in completing a digital preservation policy, as well as an <a  href="https://docs.google.com/forms/d/e/1FAIpQLSfbI6PxmXgLBai5Bz_SchaZFr5hRijqO7mPGJRoq37VE_DqYg/viewform" target="_blank">interactive form</a> to help create a rough draft to begin a policy. 
+ We've also provided [guidelines and examples](policy.html) to help those interested in completing a digital preservation policy, as well as an <a  href="assets/DigitalPreservationPolicyTemplate.rtf" target="_blank">document template</a> to help create a rough draft to begin a policy and an <a  href="assets/DigitalPreservationActivitiesChecklist.rtf" target="_blank">activities checklist</a>.
