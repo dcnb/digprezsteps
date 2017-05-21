@@ -5,7 +5,7 @@ path: instructions
 
 ---
 
-## <span>Instructions</span>
+## <span>How To Use</span>
 
 You can, of course, simply browse this site to learn more about the different aspects and steps of digital preservation practices. If you'd like to use this site more programmatically, follow the instructions below and then proceed to the steps needed to advance your practice. 
 
