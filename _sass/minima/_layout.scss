@@ -26,6 +26,8 @@
   }
 }
 
+
+
 .site-nav {
   float: right;
   line-height: 56px;
@@ -346,3 +348,9 @@ hr{margin:30px; }
     background: #85b5cd;
     box-shadow: 5px 5px 5px #999;
 }
+
+.front-glyph{font-size:8em;
+ @include media-query($on-palm) {
+font-size:4em;
+ }
+ }

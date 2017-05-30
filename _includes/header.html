@@ -14,9 +14,10 @@
       </span>
 
       <div class="trigger" id="trigger">
-         <a class="page-link {% if page.url == '/instructions.html' %}selected{% else %} {% endif %}  " href="instructions.html">Instructions</a>
+         <a class="page-link {% if page.url == '/instructions.html' %}selected{% else %} {% endif %}  " href="instructions.html"><span class="hidden-sm hidden-xs glyphicon glyphicon-search" style="margin-right:10px;"></span> Instructions</a>
           
                <span class="header-breaker"> | </span> 
+               <span class="hidden-sm hidden-xs glyphicon glyphicon-road " style="margin-right:10px;"></span> 
            <hr class="header-breaker-phone"/> 
         {% for my_page in site.pages %}
           {% if my_page.order %}
@@ -30,6 +31,7 @@
           {% endif %}
         {% endfor %}
         <span class="header-breaker"> | </span> 
+        <span class="hidden-sm hidden-xs glyphicon glyphicon-check" style="margin-right:10px;"></span>
           <hr class="header-breaker-phone"/> 
 <a class="page-link {% if page.url == '/policy.html' %}selected{% else %} {% endif %}" href="policy.html">Policy Builder</a>
       </div>
