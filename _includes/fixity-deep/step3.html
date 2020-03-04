@@ -1,0 +1,9 @@
+<p>In addition to checking fixity before and after transfer, collections of digital files and objects should be checked on a regular basis. There are a range of systems and approaches focused on checking object fixity at regular intervals. This could be monthly, quarterly, or yearly. The more often you check, the more likely you are to detect and repair errors. Most fixity checking software creates file-level or folder-level log files that can be used for directory or project audits. These are simply plain text documents with a list of files and their checksums. </p>
+<p>Once you have generated baseline fixity information for files or objects, comparing that information with future fixity check information will tell you if a file has changed or been corrupted. Many so called "diff tools" can compare two log files of same directory and highlight the differences. This fixity information can be used to support the repair of data that has been damaged. </p>
+<p class="center"><a href="images/fixity-deep03.jpg"><img class="center" src="images/fixity-deep03.jpg"></a></p>
+<p class="center">Comparison of folder-level log files using <a href="http://meldmerge.org/" target="_blank">Meld</a></p>
+<p>Continue fixity checks but hang onto log files. If you're using BagIt, then they are called manifest files and are part of what's generated when you run BagIt. Other methods of generating checksums can often produce either file-level or folder-level log files.</p>
+
+<p class="center"><a src="images/fixity-deep09.jpg"><img class="center" src="images/fixity-deep09.jpg"></a></p>
+<p class="center">Folder-level MD5 checksum log file</p>
+<p>Virus checking should be a required component of all digital object accessioning at this level going forward. An appropriate plan should also be developed to deal with infected or suspect files. Most antivirus software will either move them into a quarantine folder for later review or simply delete them.</p>

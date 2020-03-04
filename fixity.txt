@@ -1,0 +1,39 @@
+__________________________________
+
+CHECKSUM
+
+//md5
+md5 -r 
+
+//sha256
+shasum -a 256
+
+//md5 of folder contents
+cd /path/to/folder/
+find /path/to/folder/ | xargs -I{} md5 {}
+
+//md5 of folder contents to text file
+find /path/to/folder/ | xargs -I{} md5 {} > md5.txt
+___________________________
+
+BAGIT
+
+bagit.py /path/to/folder/
+bagit.py --validate /path/to/folder/
+bagit.py --sha256 /path/to/folder/
+
+bagit.py --sha256 --contact-name ‘First Last’ --source-organization ‘Blank University’ /path/to/folder/
+
+__________________________________
+
+CLAMAV
+
+freshclam
+
+clamscan /path/to/folder/
+
+cd /path/to/folder/
+clamscan /path/to/folder/ > clamscan.txt
+
+cd /Volumes/ExFat/files
+clamscan /Volumes/ExFat/files > clamscan.txt

@@ -1,23 +1,29 @@
 name: Metadata
 level-1:
-    - text: Identify who has read, write, move and delete authorization to individual files
-    - text: Restrict who has those authorizations to individual files
+    - text: Inventory of content and its storage location 
+    - text: Ensure backup and non-collocation of inventory
 level-2:
-    - text: Document access restrictions for content
-    - text: Document your storage system(s) and storage media and what you need to use them
+    - text: Store administrative metadata 
+    - text: Store transformative metadata and log events 
 level-3:
-    - text: At least one copy in a geographic location with a different disaster threat
-    - text: Obsolescence monitoring process for your storage system(s) and media
+    - text: Store standard technical and descriptive metadata
 level-4:
-    - text: At least three copies in geographic locations with different disaster threats
-    - text: Have a comprehensive plan in place that will keep files and metadata on currently accessible media or systems
+    - text: Store standard preservation metadata
 step-1:
 step-2:
 step-3:
 step-4:
 resources:
-    - name:
-        url:
+    - name: Access Through Metadata 
+      url: http://www.digitalpreservation.gov/series/challenge/metadata_digital_content_challenge.html
     
-    - name:
-        url:
+    - name: LOC Standards
+      url: http://www.loc.gov/standards/
+    - name: PREMIS Standards
+      url: http://www.loc.gov/standards/premis/
+    
+    - name: Digital Curation Center
+      url: http://www.dcc.ac.uk/resources/briefing-papers/standards-watch-papers/what-are-metadata-standards
+    
+    - name: Digital Preservation Coalition
+      url: http://www.dpconline.org/handbook/organisational-activities/metadata-and-documentation

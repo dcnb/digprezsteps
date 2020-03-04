@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+
+   <p class="indent"><a href="index.html">Home</a> | <em style="font-size:11px;">(Note that some website content is excised for this one-page presenation)</em> </p>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

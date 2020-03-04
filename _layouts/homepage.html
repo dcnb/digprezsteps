@@ -2,42 +2,64 @@
 layout: default
 ---
 
-
-<h2>Introduction</h2>
-
-
 <div class="row">
-			<div class="col-lg-8">
-			 {{ content }}
+  	<div class="row">
+     
+<br/>
+				<div class="col-lg-4 col-md-4 col-sm-12 callout center">
+	<h1 class="center front-glyph"><a href="instructions.html" style="color:#555"><span class="glyphicon glyphicon-search"></span></a></h1>
+					<h2 class="center">Assess</h2>
+      <p>Use the NDSA's <a href="instructions.html#levels">Levels of Digital Preservation</a> to assess your digital preservation practice 
+      "levels" in various areas. </p>
+				</div><!-- col-lg-4 -->
+					
+				<div class="col-lg-4 col-md-4  callout center">
+					<h1 class="center front-glyph"><a href="fixity.html" style="color:#555"><span class="glyphicon glyphicon-road"></span></a></h1>
+					<h2 class="center">Take Steps</h2>
+          <p>Identify areas where your institution can improve and determine the steps necessary to move from your present level to the next.  </p>
+				</div><!-- col-lg-4 -->	
+				
+				<div class="col-lg-4 col-md-4 callout center">
+					<h1 class="center front-glyph"><a href="policy.html" style="color:#555"><span class="glyphicon glyphicon-check"></span></a></h1>
+          <h2 class="center">Progress</h2>
+          
+					<p> Follow the small, concrete steps provided here to improve the digital preservation practices of your institution. </p>
+				</div><!-- col-lg-4 -->	
+			</div>
+		<!-- -->
+     <hr />
+          <div class="col-lg-8 col-lg-offset-2 col-sm-12" >
+       
+      
+    <h2>About</h2>
+  <div style="font-size:17px; font-weight:100">
+       {% include about.html %}
+       </div>
+</div>
+       	<div class="col-lg-8 col-lg-offset-2 col-sm-12" >
+        	<br/><br/>
+           	<a href="instructions.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Asessement Instructions</button></a>
+        <br/><br/> 
+        <br/>
+      
+ 	<a href="fixity.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">File Fixity &amp; Data Integrity</button></a>
+       <br><br>
+          	<a href="formats.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">File Formats</button></a>
+       <br><br>
+          	<a href="metadata.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Metadata</button></a>
+       <br><br>
+          
+          	<a href="security.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Information Security</button></a>
+       <br><br>    
+          	<a href="storage.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Storage &amp; Geographic Location</button></a>
+       <br><br>    
+         <br/>
+         			<a href="policy.html"><button type="button" class="btn btn-default btn-lg centered col-md-8 col-md-offset-2">Build a Digital Preservation Policy</button></a>
      </div>
-    <div class="col-lg-4 pull-right">
-    <div class="panel panel-default ">
-  <div class="panel-heading">
-    <h3 class="panel-title">Central Ideas</h3>
-  </div>
-  <div class="panel-body">
-  <ul>
-{% for resource in site.data.ideas %}
-  <li>
-    <a href="{{resource.url}}">{{ resource.title }}</a> - {{ resource.description }}
-     </li>
-{% endfor %}
-</ul>
-               
-  </div>
-</div>
-</div>
-</div>
-<p class="center " >
-  {% for my_page in site.pages  %}
-          {% if my_page.order %}
-          <a class="page-link button" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}</p>
-<hr />
-<h3>Original National Digital Stewardship Alliance Levels of Digital Preservation Table</h3>
-
-   {% include fulltable.html %}
   </div>
 
-</article>
+
+
+
+
+

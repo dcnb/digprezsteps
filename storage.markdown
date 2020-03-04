@@ -1,6 +1,6 @@
 ---
+title: Storage & Geographic Location
 layout: step
-title: Storage and Geographic Location
 path: storage
 order: 1
 step: storage
